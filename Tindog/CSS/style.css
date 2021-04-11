@@ -1,0 +1,222 @@
+body {
+  font-family: Montserrat;
+  text-align: center;
+}
+
+
+
+/* Headings */
+
+.big-heading{
+  font-family: Montserrat-Black 900;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* Container */
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+
+/* Sections */
+
+.colored-section {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.white-section {
+  background-color: white;
+}
+
+
+
+/* Title Section */
+
+@media (min-width: 1170px) {
+  #title {
+    text-align: left;
+  }
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-weight: 500;
+  font-size: 2.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-family: Monsterrat-Light 300;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+
+/* Download Buttons */
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+
+.title-img {
+  width: 23%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1170px) {
+  .title-img{
+    width: 50%;
+    transform: rotate(0);
+    position: static;
+  }
+}
+
+/* Title Section */
+
+
+
+/* Feature Section */
+
+#features {
+  position: relative;
+  z-index: 1;
+}
+
+.feature-item {
+  text-align: center;
+  padding: 3%;
+}
+
+
+/* Feature Icon */
+
+.feature-icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* Feature Icon */
+
+
+.feature-h3 {
+  font-family: Montserrat-Bold 700;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.feature-p {
+  color: #8f8f8f;
+}
+
+/* Feature Section */
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+  background-color: #ef8172;
+}
+
+
+.testimonials-h2 {
+  font-family: Montserrat-Bold 700;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/* Testimonials Section */
+
+
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Press Section */
+
+
+
+/* Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-plan {
+  padding: 3% 2%;
+}
+
+/* Pricing Section */
+
+
+
+/* Call to Action Section*/
+
+.cta-button {
+  margin: 5% 2% 0 2%;
+}
+
+/* Call to Action Section*/
+
+
+
+/* Footer Section */
+
+#footer {
+  color: grey;
+  font-family: Monntserrat-Medium 500;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+.footer-icon {
+  padding: 1% 1% 2%;
+  color: #212529;
+}
+
+/* Footer Section */
